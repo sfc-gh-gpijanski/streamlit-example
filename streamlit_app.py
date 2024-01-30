@@ -15,7 +15,7 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-e = RuntimeError('This is an exception of type RuntimeError')
+e = RuntimeError('This is a cool exception of type RuntimeError')
 st.exception(e)
 
 with st.echo(code_location='below'):
